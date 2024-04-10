@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: linear-gradient(rgb(43, 0, 201), rgb(0, 255, 198));
+    background: linear-gradient(rgb(43, 0, 201), rgb(8, 0, 88));
 }
 
 .top-bar {
