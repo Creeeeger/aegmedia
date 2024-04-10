@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap");
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(rgb(43, 0, 201), rgb(0, 255, 198));
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    flex: 1;
+    /* Fill remaining space */
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.image img {
+    border-radius: 10px;
+}
+
+.top-bar {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    transition: box-shadow 0.3s ease;
+}
+
+.top-bar:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.left-links {
+    display: flex;
+}
+
+.link {
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.logo-link,
+.instagram-link {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link img,
+.instagram-link img {
+    height: 60px;
+    width: auto;
+}
+
+.instagram-link {
+    margin-right: 20px;
+}
+
+.instagram-link img {
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    z-index: 1;
+    /* Ensure footer stays at the bottom */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex-basis: 25%;
+}
+
+.footer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+img {
+    border-radius: 10px;
+    /* Adjust the value as needed */
+}
+
+.footer-logo img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-link {
+    text-decoration: none;
+    color: white;
+}
+
+.following-section {
+    /* Add styles for the following section */
+    z-index: 2;
+    /* Ensure the following section appears above the footer */
+    position: relative;
+    /* Allow the following section to appear above the footer */
+    padding-bottom: 100px;
+    /* Add padding to the bottom to prevent content from overlapping the footer */
+}
+
+.box {
+    position: relative;
+    margin: 0 10px;
+    padding: 20px 40px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    z-index: 1;
+    color: #fff;
+}
+
+.panel {
+    display: flex;
+}
+
+.left-column {
+    flex: 3;
+}
+
+.right-column {
+    flex: 7;
+}
+
+.row {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img {
+    width: 60%;
+    /* Set the width of the image to 70% */
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.spacer {
+    height: 20px;
+}
