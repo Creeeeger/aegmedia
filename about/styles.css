@@ -45,6 +45,19 @@ p {
     flex: 1;
 }
 
+@media (max-width: 1000px) {
+    .box {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .image {
+        margin-top: 20px;
+        /* Optional: Add spacing between the stacked items */
+    }
+}
+
+
 h1 {
     font-size: 24px;
     margin-bottom: 20px;
