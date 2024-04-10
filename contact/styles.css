@@ -44,14 +44,6 @@ p {
     /* Center align text */
 }
 
-.container {
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 20px;
-    flex: 1;
-    /* Fill remaining space */
-}
-
 @media screen and (max-width: 1000px) {
     .footer-content {
         flex-direction: column;
@@ -61,10 +53,6 @@ p {
     .footer-section {
         margin-bottom: 20px;
         /* Add some space between stacked elements */
-    }
-
-    .footer-content .h3 {
-        text-align: center;
     }
 
     .footer h3 {
@@ -178,16 +166,6 @@ img {
     color: white;
 }
 
-.following-section {
-    /* Add styles for the following section */
-    z-index: 2;
-    /* Ensure the following section appears above the footer */
-    position: relative;
-    /* Allow the following section to appear above the footer */
-    padding-bottom: 100px;
-    /* Add padding to the bottom to prevent content from overlapping the footer */
-}
-
 .box {
     position: relative;
     margin: 0 10px;
@@ -199,9 +177,4 @@ img {
     border-radius: 50px;
     z-index: 1;
     color: #fff;
-}
-
-
-.spacer {
-    height: 20px;
 }
