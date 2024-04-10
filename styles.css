@@ -28,7 +28,9 @@ body {
     flex: 1;
     padding: 20px;
 }
-
+a.button {
+    text-decoration: none;
+}
 .text {
     margin-bottom: 20px;
 }
