@@ -154,15 +154,22 @@ img {
     color: white;
 }
 
-.following-section {
-    /* Add styles for the following section */
-    z-index: 2;
-    /* Ensure the following section appears above the footer */
-    position: relative;
-    /* Allow the following section to appear above the footer */
-    padding-bottom: 100px;
-    /* Add padding to the bottom to prevent content from overlapping the footer */
+
+@media only screen and (max-width: 1000px) {
+    .panel {
+        flex-direction: column;
+    }
+
+    .left-column,
+    .right-column {
+        flex: 1;
+    }
+
+    .box {
+        margin: 10px 0;
+    }
 }
+
 
 .box {
     position: relative;
