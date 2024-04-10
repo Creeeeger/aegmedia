@@ -10,25 +10,6 @@ body {
     background: linear-gradient(rgb(43, 0, 201), rgb(0, 255, 198));
 }
 
-.container {
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 20px;
-    flex: 1;
-    /* Fill remaining space */
-}
-
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.image img {
-    border-radius: 10px;
-}
-
 .top-bar {
     position: fixed;
     top: 20px;
@@ -62,10 +43,6 @@ body {
     .footer-section {
         margin-bottom: 20px;
         /* Add some space between stacked elements */
-    }
-
-    .footer-content .h3 {
-        text-align: center;
     }
 
     .footer h3 {
@@ -199,20 +176,6 @@ img {
 .row {
     padding: 10px;
     margin-bottom: 10px;
-}
-
-.img-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.img-container img {
-    width: 60%;
-    /* Set the width of the image to 70% */
-    height: auto;
-    justify-content: center;
-    align-items: center;
 }
 
 

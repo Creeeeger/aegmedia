@@ -18,17 +18,6 @@ body {
     /* Fill remaining space */
 }
 
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.image img {
-    border-radius: 10px;
-}
-
 .container {
     display: flex;
     justify-content: space-between;
@@ -42,6 +31,22 @@ body {
 
 .text {
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+        /* Add some space between stacked elements */
+    }
+
+    .footer h3 {
+        text-align: center;
+    }
 }
 
 .button {
@@ -167,16 +172,6 @@ img {
     color: white;
 }
 
-.following-section {
-    /* Add styles for the following section */
-    z-index: 2;
-    /* Ensure the following section appears above the footer */
-    position: relative;
-    /* Allow the following section to appear above the footer */
-    padding-bottom: 100px;
-    /* Add padding to the bottom to prevent content from overlapping the footer */
-}
-
 .box {
     position: relative;
     margin: 0 10px;
@@ -188,40 +183,4 @@ img {
     border-radius: 50px;
     z-index: 1;
     color: #fff;
-}
-
-.panel {
-    display: flex;
-}
-
-.left-column {
-    flex: 3;
-}
-
-.right-column {
-    flex: 7;
-}
-
-.row {
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-.img-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.img-container img {
-    width: 60%;
-    /* Set the width of the image to 70% */
-    height: auto;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.spacer {
-    height: 20px;
 }

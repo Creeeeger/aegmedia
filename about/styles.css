@@ -19,20 +19,6 @@ p {
     margin: 10px 0;
 }
 
-.contact-info {
-    margin-top: 20px;
-}
-
-.contact-info p {
-    margin: 5px 0;
-}
-
-.email-link,
-.phone-link {
-    color: #007bff;
-    text-decoration: none;
-}
-
 .box {
     display: flex;
     align-items: center;
@@ -74,15 +60,6 @@ p {
     margin-left: 20px;
 }
 
-.email-link:hover,
-.phone-link:hover {
-    text-decoration: underline;
-}
-
-.contact-card {
-    text-align: center;
-}
-
 .container {
     max-width: 90%;
     margin: 0 auto;
@@ -90,8 +67,6 @@ p {
     flex: 1;
     /* Fill remaining space */
 }
-
-
 
 .top-bar {
     position: fixed;
@@ -209,10 +184,6 @@ img {
         /* Add some space between stacked elements */
     }
 
-    .footer-content .h3 {
-        text-align: center;
-    }
-
     .footer h3 {
         text-align: center;
     }
@@ -229,9 +200,4 @@ img {
     border-radius: 50px;
     z-index: 1;
     color: #fff;
-}
-
-
-.spacer {
-    height: 20px;
 }
