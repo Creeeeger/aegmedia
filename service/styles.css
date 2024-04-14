@@ -16,7 +16,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
-    height: 110px;
+    height: 80px;
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -69,7 +69,7 @@ body {
 
 .logo-link img,
 .instagram-link img {
-    height: 100px;
+    height: 75px;
     width: auto;
 }
 
