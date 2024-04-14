@@ -16,7 +16,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
-    height: 80px;
+    height: 110px;
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -42,7 +42,6 @@ body {
 
     .footer-section {
         margin-bottom: 20px;
-        /* Add some space between stacked elements */
     }
 
     .footer h3 {
@@ -70,7 +69,7 @@ body {
 
 .logo-link img,
 .instagram-link img {
-    height: 60px;
+    height: 100px;
     width: auto;
 }
 
