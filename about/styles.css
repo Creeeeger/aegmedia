@@ -126,7 +126,6 @@ p {
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    padding: 20px;
     bottom: 0;
     width: 100%;
     color: white;
@@ -152,7 +151,6 @@ p {
 
 img {
     border-radius: 10px;
-    /* Adjust the value as needed */
 }
 
 .footer-logo img {
@@ -178,7 +176,6 @@ img {
 
     .footer-section {
         margin-bottom: 20px;
-        /* Add some space between stacked elements */
     }
 
     .footer h3 {

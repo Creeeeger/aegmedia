@@ -117,12 +117,10 @@ p {
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    padding: 20px;
     bottom: 0;
     width: 100%;
     color: white;
     z-index: 1;
-    /* Ensure footer stays at the bottom */
 }
 
 .footer-content {
